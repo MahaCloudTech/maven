@@ -30,24 +30,23 @@
   </modules>
 
   <distributionManagement>
-    <site>
+    <!--site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
-    </site>
+    </site -->
      
            
            <repository>
                <id>Release</id>  
-              <name>Nexus</name>
-             <url> http://13.233.16.180:8081/repository/maven-public/</url>
+               <name>Nexus</name>
+               <url> http://13.233.16.180:8081/repository/maven-public/</url>
             </repository>
             
             <snapshotRepository>
               <id>nexus</id>
               <name>Snapsht</name>
-               <url> http://13.233.16.180:8081/repository/maven-snapshots/</url>
-                     
+              <url> http://13.233.16.180:8081/repository/maven-snapshots/</url>              
             </snapshotRepository>
               
               
