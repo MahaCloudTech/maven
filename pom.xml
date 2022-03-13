@@ -37,20 +37,20 @@
     </site -->
      
            
-           <repository>
-               <id>Release</id>  
-               <name>Nexus</name>
-               <url> http://13.233.16.180:8081/repository/maven-public/</url>
-            </repository>
+      <repository>
+        <id>Release</id>  
+        <name>Nexus</name>
+        <url> http://13.233.16.180:8081/repository/maven-public/</url>
+       </repository>
             
-            <snapshotRepository>
-              <id>nexus</id>
-              <name>Snapsht</name>
-              <url> http://13.233.16.180:8081/repository/maven-snapshots/</url>              
-            </snapshotRepository>
+       <snapshotRepository>
+         <id>nexus</id>
+         <name>Snapsht</name>
+         <url> http://13.233.16.180:8081/repository/maven-snapshots/</url>              
+       </snapshotRepository>
               
               
-      </repository>
+     
   </distributionManagement>
 
   <build>
